@@ -1,5 +1,5 @@
 <?php
-    $filename='data.dat';
+    $filename='https://raw.githubusercontent.com/r1172464137/r1172464137.github.io/master/data.dat';
     header('Content-type:text/html;charset=utf-8');
     if(!file_exists($filename)){
         echo $filename.'数据文件不存在';
